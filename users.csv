@@ -1,0 +1,3 @@
+username,email,role,policy
+cbrookes1,cbrookes1@hotmail.com,developer,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+leorag,leorag@example.com,viewer,arn:aws:iam::aws:policy/ReadOnlyAccess
