@@ -57,8 +57,7 @@ See AWS SES docs for verification and sending details.
 
 ## Files in this repo
 - `iam_automation.py` — Lambda-compatible script
-- `lambda-policy.json` — example IAM policy for Lambda execution role
-- `template.yaml` — (optional) SAM template for deployment
+- `IAMAutomation_json_policy.json` — example IAM policy for Lambda execution role
 - `README.md` — this file
 
 ---
