@@ -3,14 +3,18 @@
 
 ## Project summary
 
-This project demonstrates automating AWS IAM user and role provisioning using a Python Lambda function. It emphasizes security best practices (least privilege, logging via CloudTrail), serverless automation, and email notifications through SES.
+This project shows how to automate the creation and management of AWS IAM users and roles using a Python Lambda function. It focuses on:
+
+Security best practices: Least-privilege permissions and full logging via CloudTrail.
+Serverless automation: Fully automated user and role management using Lambda.
+Notifications: Email alerts using Amazon SES for newly provisioned users.
 
 **Key features**
-- Create IAM users from a CSV file (S3).
-- Attach least-privilege managed/custom policies.
-- Send verification/notification emails via SES.
-- CloudTrail logging for all identity events.
-- CloudWatch metric filters/alarms for monitoring.
+- Automatically create IAM users from a CSV stored in S3.
+- Attach least-privilege managed or custom policies to users.
+- Send notification emails through SES when users are created.
+- Log all identity events with CloudTrail.
+- Monitor critical events with CloudWatch metric filters and alarms
 
 ---
 
@@ -21,8 +25,6 @@ Lambda → SES (send email)
 CloudTrail → S3 & CloudWatch → Alarms/SNS
 
 ---
-
-## Getting started (for beginners)
 
 ### Prerequisites
 - AWS account with administrative privileges for initial setup.
