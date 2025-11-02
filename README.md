@@ -29,8 +29,8 @@ CloudTrail → S3 & CloudWatch → Alarms/SNS
 ### Prerequisites
 - AWS account with administrative privileges for initial setup.
 - AWS CLI configured (`aws configure`).
-- Python 3.9+ and `pip`.
-- (Optional) AWS SAM CLI for deployment.
+- Python 3.12
+
 
 ### 1) Prepare input CSV
 Create `users.csv` with columns: Upload to S3 (e.g., `my-iam-provisioning-bucket/users.csv`).
