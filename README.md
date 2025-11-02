@@ -1,12 +1,6 @@
 # Cloud_IAM_Automation_System
 (Systems- AWS+Python) Used to secure user and role management in AWS 
 
-# AWS IAM Automation & Monitoring System
-
-**Automated, secure IAM provisioning with audit logging and email alerts.**
-
----
-
 ## Project summary
 
 This project demonstrates automating AWS IAM user and role provisioning using a Python Lambda function. It emphasizes security best practices (least privilege, logging via CloudTrail), serverless automation, and email notifications through SES.
